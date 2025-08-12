@@ -1,0 +1,7 @@
+services:
+  devdiscord-app:
+    build: .
+    environment:
+      - DISCORD_BOT_TOKEN=***REMOVED***
+    ports:
+      - "8081:8081"
