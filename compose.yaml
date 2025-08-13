@@ -4,6 +4,6 @@ services:
   devdiscord-app:
     build: .
     environment:
-      - DISCORD_BOT_TOKEN=your-token
+      - DISCORD_BOT_TOKEN=
     ports:
       - "8081:8081"
